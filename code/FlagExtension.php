@@ -39,12 +39,6 @@ class FlagExtension extends DataExtension {
             $property = $color."Flag";
             
             $title = $color." Flag"; // todo -o lx use _t instead
-            if ($color == "Green") {
-                $title.=" (published)";
-            }
-            if ($color == "Red") {
-                $title.=" (needs revision)";
-            }
             
             $field_Flag[$color] = new CheckboxField($property, $title);
             $fields->addFieldToTab('Root.Flags', $field_Flag[$color]);    
