@@ -13,7 +13,7 @@ Silverstripe 3.0
 ## Features
 
 - adds up to 5 flags to any DataObject (Red,Orange,Yellow,Green,Blue) 
-- those flags are visible in your modeladmin with each flag beeing an action that you can enable/disable with a click
+- those flags are visible in your modeladmin with each flag being an action that you can enable/disable with a click
 
 ## Install
 
