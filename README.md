@@ -12,7 +12,7 @@ Silverstripe 3.0
 
 ## Features
 
-- adds up to 5 flags to any DataObject 
+- adds up to 5 flags to any DataObject (Red,Orange,Yellow,Green,Blue) 
 - those flags are visible in your modeladmin with each flag beeing an action that you can enable/disable with a click
 
 ## Install
@@ -24,7 +24,7 @@ Silverstripe 3.0
 
 ## Usage
 
-The flags dont do anything by default, but of course you can use them in your code like: 
+The flags don´t do anything by default, but of course you can use them in your code like: 
 
 `$Products = Product::get()->filter("GreenFlag",1);`
 
